@@ -117,61 +117,25 @@
 </header>
 
 <nav>
-	<a href="index.html">Principal</a> | <a href="experiencia.html">Experiencia</a>
+	<a href="educacion.html">Educaci&oacute;n</a> | <a href="index.html">Principal</a>
 </nav>
 
 <section>
-  <h2>Educaci&oacute;n</h2>
-  <table border="1">
-    <tr>
-      <th>Año</th>
-      <th>Institución</th>
-      <th>Lugar</th>
-      <th>Culmin&oacute;?</th>
-    </tr>
-    <tr>
-      <td>2000</td>
-      <td>Escuela de Comercio</td>
-      <td>Cordoba, Argentina</td>
-      <td>Si</td>
-    </tr>
-    <tr>
-      <td>2015</td>
-      <td>Hilton University</td>
-      <td>CMS</td>
-      <td>Si</td>
-    </tr>
-    <tr>
-      <td>2018</td>
-      <td>Next University</td>
-      <td>Interantional</td>
-      <td>No</td>
-    </tr>
-  </table>
-  <form>
-    <h3>Agregar Estudios</h3>
-    <label for="year">Año</label>
-    <select>
-      <option value="año">2010</option>
-      <option value="año">2011</option>
-      <option value="año">2012</option>
-      <option value="año">2013</option>
-      <option value="año">2014</option>
-      <option value="año">2015</option>
-      <option value="año">2016</option>
-      <option value="año">2017</option>
-      <option value="año">2018</option>
-    </select>
-    <br>
-    Institucion <input type="text" name="school" maxlength="60"></label>
-    <br>
-    Localidad <input type="text" name="city" maxlength="60"></label>
-    <br>
-    <input type="button" name="send" value="Enviar">
-  </form>
+  <h2>Experiencia</h2>
+  <p>Video de Presentación</p>
+  <video width="30%" controls>
+    <source src="assets/video/videoFinal.mov" type="video/mp4">
+    <source src="assets/video/videoFinal.ogg" type="video/ogg">
+    Tu navegador no soprta etiquetas de video.
+  </video>
+  <br>
+  <p>Audio de Presentación</p>
+  <audio src="assets/audio/audioFinal.m4a" controls preload="auto"></audio>
 </section>
+
 <footer>
   <p>ale.gom3z@gmail.com  |  +54.9.11.7677508  |  Instagram <a href="http://www.instagram.com/alegom3z" target="_blank">@alegom3z</a></p>
 </footer>
+
 </body>
 </html>
