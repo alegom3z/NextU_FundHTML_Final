@@ -22,7 +22,7 @@
    height="105mm"
    viewBox="0 0 524.40946 372.04724"
    id="svg2"
-   version="1.1" 
+   version="1.1"
    inkscape:version="0.91 r13725"
    sodipodi:docname="logo.svg">
   <defs
@@ -117,28 +117,61 @@
 </header>
 
 <nav>
-	<a href="educacion.html">Educaci&oacute;n</a> | <a href="experiencia.html">Experiencia</a>
+	<a href="index.html">Principal</a> | <a href="experiencia.html">Experiencia</a>
 </nav>
 
 <section>
-	<h2>Informacion Personal</h2>
-	<img src="assets/images/fotoAG.jpg" width="12%">
-	<article>
-		<p>Un individuo altamente motivado, seguro, bien organizado y profesional.<br>
-		Acostumbrado a trabajar tanto individualmente como formando parte de un equipo. Muy sensible en situaciones estresantes y exigentes y acostumbrado a entornos rápidos y en constante cambio, así como trabajar bajo extrema presión y plazos muy acotados; Muy buenas habilidades de organización y comunicación. Capaz de mantener la consistencia de producto y prestación de servicios y competente con P&L, previsión y control de costos. Experiencia en operaciones pre y post apertura.</p>
-		<p>Adem&aacute;s de lo anterior poseo fluidez en los sigueintes idiomas:</p>
-		<ul>
-			<li>Ingl&eacute;s</li>
-			<li>Franc&eacute;s</li>
-			<li>Castellano</li>
-			<li>Portugu&eacute;s [Brasil]</li>
-		</ul>
-	</article>
+  <h2>Educaci&oacute;n</h2>
+  <table border="1">
+    <tr>
+      <th>Año</th>
+      <th>Institución</th>
+      <th>Lugar</th>
+      <th>Culmin&oacute;?</th>
+    </tr>
+    <tr>
+      <td>2000</td>
+      <td>Escuela de Comercio</td>
+      <td>Cordoba, Argentina</td>
+      <td>Si</td>
+    </tr>
+    <tr>
+      <td>2015</td>
+      <td>Hilton University</td>
+      <td>CMS</td>
+      <td>Si</td>
+    </tr>
+    <tr>
+      <td>2018</td>
+      <td>Next University</td>
+      <td>Interantional</td>
+      <td>No</td>
+    </tr>
+  </table>
+  <form>
+    <h3>Agregar Estudios</h3>
+    <label for="year">Año</label>
+    <select>
+      <option value="año">2010</option>
+      <option value="año">2011</option>
+      <option value="año">2012</option>
+      <option value="año">2013</option>
+      <option value="año">2014</option>
+      <option value="año">2015</option>
+      <option value="año">2016</option>
+      <option value="año">2017</option>
+      <option value="año">2018</option>
+    </select>
+    <br>
+    Institucion <input type="text" name="school" maxlength="60"></label>
+    <br>
+    Localidad <input type="text" name="city" maxlength="60"></label>
+    <br>
+    <input type="button" name="send" value="Enviar">
+  </form>
 </section>
-
 <footer>
-	<p>ale.gom3z@gmail.com  |  +54.9.11.7677508  |  Instagram <a href="http://www.instagram.com/alegom3z" target="_blank">@alegom3z</a></p>
+  <p>ale.gom3z@gmail.com  |  +54.9.11.7677508  |  Instagram <a href="http://www.instagram.com/alegom3z" target="_blank">@alegom3z</a></p>
 </footer>
-
 </body>
 </html>
