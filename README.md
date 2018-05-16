@@ -1,7 +1,6 @@
+<!DOCTYPE html>
 <!-- # NextU_FundHTML_Final
 Final Assignment HTML Fundamentals -->
-
-<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8" lang="es-AR">
