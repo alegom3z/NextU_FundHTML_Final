@@ -22,7 +22,7 @@
    height="105mm"
    viewBox="0 0 524.40946 372.04724"
    id="svg2"
-   version="1.1"
+   version="1.1" 
    inkscape:version="0.91 r13725"
    sodipodi:docname="logo.svg">
   <defs
